@@ -16462,4 +16462,26 @@ select.selectpicker {
     transform: translate3d(-25px, 0, 0);
     width: 245px; } }
 
+
+#bible {
+  width: 140px;
+  color: #fff;
+  border-color: #999999;
+  box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+  position: relative;
+  padding: 12px 30px;
+  margin: 0.3125rem 1rem;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.42857;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  border: 0;
+  border-radius: 0.2rem;
+  outline: 0;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: box-shadow, transform;
+}
+
 /*# sourceMappingURL=material-kit.css.map */
