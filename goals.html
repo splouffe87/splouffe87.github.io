@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Goal Tracker
+    Bible Review
   </title>
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -16,7 +16,7 @@
 </head>
 <body>
 <div id="navbar">
-  <div class="navigation-example" style="background-image: url('./assets/images/beach1.jpg');">
+  <div class="navigation-example" style="background-image: url('./assets/images/mountain1.jpg');">
     <nav class="navbar navbar-default navbar-expand-lg" role="navigation-demo">
       <div class="container">
         <div class="navbar-translate">
@@ -60,8 +60,8 @@
 <div class="features-1">
   <div class="row">
     <div class="col-md-8 ml-auto mr-auto">
-      <h2 class="title"><br>Daily Guides</h2>
-      <h5 class="description">Each day needs to begin afresh with God's word and connecting with him. Daily prayer guides excerpted from Face to Face, by Kenneth Boa. For personal use only.</h5>
+      <h2 class="title"><br>Domain Knowledge</h2>
+      <h5 class="description">How can a young man keep his way pure? By guarding it according to your word. With my whole heart I seek you; let me not wander from your commandments! I have stored up your word in my heart, that I might not sin against you. Blessed are you, O Lord; teach me your statutes! (Psalm 119:9-12)</h5>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@
 <div class="section cd-section" id="javascriptComponents">
   <div class="container">
     <div class="title">
-      <h2>Javascript components</h2>
+      <h2>NT Review</h2>
     </div>
       <div class="row" id="mark">
         <div class="col-md-3">
@@ -80,160 +80,90 @@
             <h3>Mark</h3>
           </div>
             <div class="row">
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 1</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="John the Baptist, Heals the Leper 'I will'" data-container="body" bg-info>Chapter 1</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Heals the Paralytic, Lord of the Sabbath" data-container="body">Chapter 2 </button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Man with Withered Hand, Jesus' Mother and Brothers" data-container="body">Chapter 3 </button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Parables, Calms the Storm" data-container="body">Chapter 4</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Gerasene Demoniac, Bleeding Woman, Jairus' Daughter" data-container="body">Chapter 5</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Feeds 5,000, Walks on Water" data-container="body">Chapter 6</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="What defiles a person, Syrophoenician Woman's Faith" data-container="body">Chapter 7</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Peter's Confession, 'If anyone would come after me...'" data-container="body">Chapter 8</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Transfiguration, Help my Unbelief" data-container="body">Chapter 9</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Rich Young Man" data-container="body">Chapter 10</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Triumphal Entry, Cleanses the Temple" data-container="body">Chapter 11</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Parable of the Tenants, Widow's Offering" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="End Times" data-container="body">Chapter 13</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Alabastar Jar through Peter's Denial" data-container="body">Chapter 14</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Pilate through Burial" data-container="body">Chapter 15</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Resurrection, Great Commission" data-container="body">Chapter 16</button>
             </div>
         </div>
         <div class="col-md-3">
           <div class="title">
-            <h3>Mark</h3>
+            <h3>Romans</h3>
           </div>
             <div class="row">
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 1</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body" bg-info>Chapter 1</button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2 </button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3 </button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 13</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 14</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 15</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 16</button>
             </div>
         </div>
         <div class="col-md-3">
           <div class="title">
-            <h3>Mark</h3>
+            <h3>1 Corinthians</h3>
           </div>
             <div class="row">
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 1</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body" bg-info>Chapter 1</button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2 </button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3 </button>
+              <button type="button" class="btn-primary" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 13</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 14</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 15</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 16</button>
             </div>
         </div>
         <div class="col-md-3">
           <div class="title">
-            <h3>Mark</h3>
+            <h3>2 Corinthians</h3>
           </div>
             <div class="row">
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 1</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
-              <button type="button" class="btn" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body" bg-info>Chapter 1</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 2 </button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 3 </button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 4</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 5</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 6</button>
+              <button type="button" class="btn-info" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 7</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 8</button>
+              <button type="button" class="btn-success" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 9</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 10</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 11</button>
+              <button type="button" class="btn-danger" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 12</button>
+              <button type="button" class="btn" id="bible" data-toggle="tooltip" data-placement="right" title="Tooltip on right" data-container="body">Chapter 13</button>
             </div>
 </div>
-        <div class="col-md-9">
-          <div class="title">
-                <h3>Datetime Picker</h3>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label class="label-control">Datetime Picker</label>
-                    <input type="text" class="form-control datetimepicker" value="10/05/2016">
-                  </div>
-                  <div class="form-group">
-                    <label class="label-control">Date Picker</label>
-                    <input type="text" class="form-control datepicker" value="10/10/2016">
-                  </div>
-                  <div class="form-group">
-                    <label class="label-control">Time Picker</label>
-                    <input type="text" class="form-control timepicker" value="14:00">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="title">
-              <h3>Popovers</h3>
-            </div>
-            <button type="button" class="btn" data-toggle="popover" data-placement="left" title="Popover on left" data-content="Here will be some very useful information about his popover. Here will be some very useful information about his popover." data-container="body">On left</button>
-          </div>
-        </div>
-
-
-<div class="features-1">
-  <div class="row">
-    <div class="col-md-10 ml-auto mr-auto">
-      <div id="nav-tabs">
-        <h3>Monday</h3>
-          <div class="row">
-            <div class="col-md-12">
-
-<div class="section cd-section" id="javascriptComponents">
-  <div class="container">
-    <div class="row" id="Mark">
-      <div class="col-md-6">
-        <div class="title">
-          <h3>Mark</h3>
-        </div>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-          <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-      </div>
-    </div>
-  </div>
-
-
-    <div class="row" id="Mark">
-      <div class="col-md-6">
-        <div class="title">
-          <h3>Romans</h3>
-
-            </div>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 1</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 2</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 3</button>
-            <button type="button" class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on right" data-container="body">Chapter 4</button>
-          </div>
-        </div>
 
 
 
