@@ -16484,4 +16484,11 @@ select.selectpicker {
   will-change: box-shadow, transform;
 }
 
+#portrait img {
+  transition: all 1s;
+}
+
+#portrait img:hover {
+  transform: scale(1.1);
+}
 /*# sourceMappingURL=material-kit.css.map */
