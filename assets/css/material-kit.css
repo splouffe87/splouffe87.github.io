@@ -8240,6 +8240,7 @@ label {
   background-position: center center;
   background-size: cover;
   margin-top: 0;
+/*  height: 100vh;*/
   min-height: 740px; }
 
 #notifications {
@@ -16495,4 +16496,13 @@ select.selectpicker {
 #bible.btn-warning {
   color: #696969;
 }
+
+/*GRID BOX*/
+.heroes-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: 5fr;
+}
+
 /*# sourceMappingURL=material-kit.css.map */
