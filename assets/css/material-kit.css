@@ -16491,4 +16491,8 @@ select.selectpicker {
 #portrait img:hover {
   transform: scale(1.1);
 }
+
+#bible.btn-warning {
+  color: #696969;
+}
 /*# sourceMappingURL=material-kit.css.map */
