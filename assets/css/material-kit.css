@@ -16513,16 +16513,10 @@ select.selectpicker {
   grid-template-rows: 5fr;
 }
 
-.lyrics {
-  color: #999;
-  font-size: 1rem;
-  line-height: 1.55em;
-}
-
 .card-body-verse {
 /*  background-color: #ffffff;*/
   margin: 1rem;
-  text-align: start;
+  text-align: center;
 /*  padding: 2rem;*/
 /*  border-radius: 0px 0px 10px 10px*/;
 }
