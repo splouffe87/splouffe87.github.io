@@ -13561,20 +13561,21 @@ thead.thead-inverse th,
 .card-collapse,
 .card-collapse .card-header {
   box-shadow: none;
-  background-color: transparent;
-  border-radius: 0; }
+  background: #eeeeee;
+/*  border-radius: 10px;*/ }
 
 .card-collapse {
   margin: 0; }
   .card-collapse .card-header {
     border-bottom: 1px solid #ddd;
-    padding: 25px 10px 5px 0px;
+/*    padding: 25px 10px 5px 0px;*/
     margin: 0;
     box-shadow: none !important;
-    background: #ffffff; }
+    background: #eeeeee; }
     .card-collapse .card-header a {
       color: #3C4858;
       font-size: 0.9375rem;
+/*      margin-left: 2rem;*/
       display: block; }
       .card-collapse .card-header a:hover, .card-collapse .card-header a:active, .card-collapse .card-header a[aria-expanded="true"] {
         color: #e91e63; }
@@ -13586,7 +13587,7 @@ thead.thead-inverse th,
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg); }
   .card-collapse .card-body {
-    padding: 15px 0px 5px; }
+/*    padding: 15px 0px 5px; */}
     .card-collapse .card-body .form-check {
       margin-left: 5px; }
 
@@ -16503,6 +16504,27 @@ select.selectpicker {
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: 5fr;
+}
+
+.hymn-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-rows: 5fr;
+}
+
+.lyrics {
+  color: #999;
+  font-size: 1rem;
+  line-height: 1.55em;
+}
+
+.card-body-verse {
+/*  background-color: #ffffff;*/
+  margin: 1rem;
+  text-align: start;
+/*  padding: 2rem;*/
+/*  border-radius: 0px 0px 10px 10px*/;
 }
 
 /*# sourceMappingURL=material-kit.css.map */
