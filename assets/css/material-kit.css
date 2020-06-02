@@ -10515,7 +10515,7 @@ textarea {
     top: 0;
     content: ""; }
   .header-filter::before {
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.1); }
   .header-filter .container {
     z-index: 2;
     position: relative; }
