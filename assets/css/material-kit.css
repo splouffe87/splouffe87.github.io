@@ -14676,7 +14676,7 @@ select.selectpicker {
   float: left;
   height: 100%;
   width: 100%;
-  text-align: left;
+  text-align: center;
   overflow: hidden;
   -webkit-box-flex: 0;
   flex: 0 1 auto; }
@@ -16525,6 +16525,22 @@ select.selectpicker {
   float: right;
 }
 
+.emotion-title {
+  text-align: center;
+}
+
+.emotions-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 5fr;
+}
+
+.sins-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 5fr;
 }
 
 /*# sourceMappingURL=material-kit.css.map */
