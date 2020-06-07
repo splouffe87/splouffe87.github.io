@@ -10515,7 +10515,7 @@ textarea {
     top: 0;
     content: ""; }
   .header-filter::before {
-    background: rgba(0, 0, 0, 0.1); }
+    background: rgba(0, 0, 0, 0.3); }
   .header-filter .container {
     z-index: 2;
     position: relative; }
@@ -16532,7 +16532,7 @@ select.selectpicker {
 .emotions-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 5fr;
 }
 
@@ -16548,6 +16548,10 @@ select.selectpicker {
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 1fr;
+}
+
+#index:hover {
+  box-shadow: 0 3px 3px 2px rgba(38, 38, 38, 0.3);
 }
 
 /*# sourceMappingURL=material-kit.css.map */
